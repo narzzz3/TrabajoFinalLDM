@@ -118,7 +118,6 @@ footer{
         font-size:50px;
         position: relative;
         text-align: center;
-        padding-right: 20px;
     }
 
     #hero-image{
@@ -225,7 +224,7 @@ footer{
         height: 250px;
         justify-content: center;
         align-items: center;
-        padding-left: 60px;
+        position: relative;
     }
     
     body{
