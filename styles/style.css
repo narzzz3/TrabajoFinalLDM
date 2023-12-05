@@ -1,0 +1,272 @@
+/* BARRA DE NAVEGACIÓN SUPERIOR*/
+#barra {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position:sticky;
+}
+
+.enlaces {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #111;
+}
+
+/*BANNER*/
+#hero-image{
+    background-image: linear-gradient(rgba(36, 36, 36, 0.5), rgba(36, 36, 36, 0.5)), url(../images/the-beatles-abbey-road.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    height: calc(100vh - 50px);
+}
+
+#hero-text{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    text-shadow: 6px 6px 8px #000000;
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+} 
+
+body{ /*css generalizado para todo el body*/
+    margin: 0;
+    background-color: beige;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    display: inline-block;
+}
+
+hr{
+    display: none; /*para que las lineas solo aparezcan para el movil*/
+}
+
+footer{
+    background-color: rgb(46, 65, 46);
+    color: white;
+    text-align: center;
+    clear: both;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.titulo{ /*clase que engloba todos los titulos de la página*/
+    color: rgb(46, 65, 46);
+    text-align: center;
+    font-weight: bold;
+} 
+
+.grid1{ /*css del grid que engloba los tres articulos*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+}
+
+/*PRIMER ARTICULO*/
+.texto1{
+    line-height: 1.7;
+    text-align: center;
+}
+#pagina{
+    background-color: #111;
+}
+
+/*SEGUNDO ARTICULO*/
+#subtitulo{ /*para el subtítulo de este artículo*/
+    color: rgb(46, 65, 46);
+    text-align: center;
+    font-weight: bold;
+}
+.miembros{
+    list-style-type: square;
+    line-height: 1.7;
+}
+video{
+    padding-left: 60px;
+}
+
+/*TERCER ARTICULO*/
+#albumes{
+    line-height: 1.89;
+}
+
+@media only screen and (max-width: 900px){
+    #hero-text{
+        font-size:50px;
+        position: relative;
+        text-align: center;
+        padding-left: 120px;
+    }
+
+    #hero-image{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    p{
+        font-size: 20px;
+    }
+    ul{
+        font-size: 20px;
+    }
+    ol{
+        font-size: 20px;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+
+    
+    #inicio{
+        width: 100%;
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    #integrantes{
+        width: 100%;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #albm{
+        width: 100%;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    video{
+        width: 600px;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    body{
+        overflow-x: hidden;
+        padding-top: auto;
+        padding-bottom: auto;
+    }
+    #contenido{
+        margin-right: 50px;
+    }
+    .grid1{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .subtitulo{
+        font-size: 20px;
+    }
+
+    hr{
+        display: block;
+    }
+}
+
+
+@media only screen and (width <= 700px){
+    #hero-text{
+        font-size:30px;
+    }
+    #hero-image{
+        height: 200px;
+        width: 100%;
+    }
+
+    #inicio{
+        width: 100%;
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    #integrantes{
+        width: 100%;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #albm{
+        width: 100%;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    video{
+        width: 400px;
+        height: 250px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    body{
+        overflow-x: hidden;
+        padding-top: auto;
+        padding-bottom: auto;
+    }
+    #contenido{
+        margin-right: 50px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+    ul{
+        font-size: 15px;
+    }
+    ol{
+        font-size: 15px;
+    }
+    .titulo{
+        font-size: 20px;
+    }
+
+    .grid1{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .subtitulo{
+        font-size: 15px;
+    }
+
+    hr{
+        display: block;
+    }
+}
+
