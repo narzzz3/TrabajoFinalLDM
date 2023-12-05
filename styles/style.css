@@ -114,9 +114,9 @@ footer{
 }
 
 @media only screen and (max-width: 900px){
-   #hero-text{
+    #hero-text{
         font-size:50px;
-        position: relative;
+        position: absolute;
         text-align: center;
         padding-left: 120px;
     }
@@ -125,6 +125,7 @@ footer{
         height: 400px;
         width: 100%;
     }
+
 
     p{
         font-size: 20px;
@@ -138,6 +139,7 @@ footer{
     .titulo{
         font-size: 30px;
     }
+
     
     #inicio{
         width: 100%;
@@ -164,7 +166,7 @@ footer{
         height: 400px;
         justify-content: center;
         align-items: center;
-        position: relative;
+        postion: relative;
     }
     
     body{
@@ -172,7 +174,6 @@ footer{
         padding-top: auto;
         padding-bottom: auto;
     }
-    
     #contenido{
         margin-right: 50px;
     }
@@ -191,9 +192,10 @@ footer{
 }
 
 
-@media only screen and (max-width: 760px){
+@media only screen and (width <= 700px){
     #hero-text{
         font-size:30px;
+        position: relative;
     }
     #hero-image{
         height: 200px;
@@ -263,4 +265,3 @@ footer{
         display: block;
     }
 }
-
