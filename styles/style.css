@@ -40,7 +40,7 @@ a:hover {
     text-align: center;
     justify-content: center;
     align-items: center;
-    position:absolute;
+    position: static;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -121,7 +121,7 @@ video{
 @media only screen and (max-width: 900px){
     #hero-text{
         font-size:50px;
-        position: relative;
+        position: static;
         text-align: center;
     }
 
