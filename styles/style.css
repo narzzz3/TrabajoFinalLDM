@@ -118,7 +118,7 @@ footer{
         font-size:50px;
         position: relative;
         text-align: center;
-        padding-left: 120px;
+        /*padding-left: 120px;*/
     }
 
     #hero-image{
