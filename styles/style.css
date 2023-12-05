@@ -116,7 +116,7 @@ footer{
 @media only screen and (max-width: 900px){
     #hero-text{
         font-size:50px;
-        position: absolute;
+        position: relative;
         text-align: center;
         padding-left: 120px;
     }
@@ -125,8 +125,7 @@ footer{
         height: 400px;
         width: 100%;
     }
-
-
+    
     p{
         font-size: 20px;
     }
@@ -140,7 +139,6 @@ footer{
         font-size: 30px;
     }
 
-    
     #inicio{
         width: 100%;
         display: block;
@@ -166,7 +164,7 @@ footer{
         height: 400px;
         justify-content: center;
         align-items: center;
-        postion: relative;
+        postion: absolute;
     }
     
     body{
