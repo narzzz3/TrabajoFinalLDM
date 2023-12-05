@@ -139,7 +139,6 @@ footer{
     .titulo{
         font-size: 30px;
     }
-
     
     #inicio{
         width: 100%;
@@ -166,6 +165,7 @@ footer{
         height: 400px;
         justify-content: center;
         align-items: center;
+        margin: auto;
     }
     
     body{
