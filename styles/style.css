@@ -113,30 +113,31 @@ footer{
     line-height: 1.89;
 }
 
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 900px){
     #hero-text{
-        font-size:40px;
-        position: absolute;
+        font-size:50px;
+        position: relative;
         text-align: center;
         padding-left: 120px;
     }
 
     #hero-image{
-        height: 300px;
+        height: 400px;
         width: 100%;
     }
 
+
     p{
-        font-size: 10px;
+        font-size: 20px;
     }
     ul{
-        font-size: 10px;
+        font-size: 20px;
     }
     ol{
-        font-size: 10px;
+        font-size: 20px;
     }
     .titulo{
-        font-size: 20px;
+        font-size: 30px;
     }
 
     
@@ -165,7 +166,6 @@ footer{
         height: 400px;
         justify-content: center;
         align-items: center;
-        margin-left: 50px;
     }
     
     body{
@@ -183,6 +183,79 @@ footer{
 
     .subtitulo{
         font-size: 20px;
+    }
+
+    hr{
+        display: block;
+    }
+}
+
+
+@media only screen and (width <= 700px){
+    #hero-text{
+        font-size:30px;
+    }
+    #hero-image{
+        height: 200px;
+        width: 100%;
+    }
+
+    #inicio{
+        width: 100%;
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    #integrantes{
+        width: 100%;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #albm{
+        width: 100%;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    video{
+        width: 400px;
+        height: 250px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    body{
+        overflow-x: hidden;
+        padding-top: auto;
+        padding-bottom: auto;
+    }
+    #contenido{
+        margin-right: 50px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+    ul{
+        font-size: 15px;
+    }
+    ol{
+        font-size: 15px;
+    }
+    .titulo{
+        font-size: 20px;
+    }
+
+    .grid1{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .subtitulo{
+        font-size: 15px;
     }
 
     hr{
