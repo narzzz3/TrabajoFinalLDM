@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
         <title>The Beatles</title>
         <link rel="shortcut icon" href="./images/favicon/favicon-16x16.png" type="image/x-icon">
         <link rel="stylesheet" href="./styles/style.css">
@@ -11,8 +10,8 @@
         <header>
             <!--BARRA DE NAVEGACIÓN SUPERIOR-->
             <nav id="barra">
-                <a href="#inicio" class="enlaces">Inicio</a>
-                <a href="#cancion" class="enlaces">Canción</a>
+                <a href="#inicio" class="enlaces">Inicio</a></li>
+                <a href="#cancion" class="enlaces">Canción</a></li>
                 <a href="https://www.thebeatles.com/ " class="enlaces" target="_blank">Página web</a>
             </nav>
         </header>
@@ -26,7 +25,7 @@
 
         <main>
             <div id="contenido"> <!--engloba todo el contenido del main-->
-                <div id="inicio"  class="grid1"> <!--grid que engloba los tres artículos-->
+                <section id="inicio"  class="grid1"> <!--grid que engloba los tres artículos-->
                     <div id="descripcion">
                         <article> <!--artículo que contiene la descripción, origen, periodo de actividad y página web-->
                             <h2 class="titulo"> Descripción del grupo </h2> 
@@ -48,7 +47,7 @@
                                     <li>Ringo Starr: batería, percusión, voz (1962–1970)</li>
                                 </ul>
                                 <br>
-                            <div id="video"> <!--div que engloba el video dentro de el segundo articulo-->
+                            <div> <!--div que engloba el video dentro de el segundo articulo-->
                                 <h2 class="titulo"> Canción: "Love me do" (1962)</h2>
                                 <video width="500" height="250" controls loop id="cancion">
                                     <source src="./images/video/Love-me-do.mp4" type="video/mp4">
@@ -80,7 +79,7 @@
                                 </ol>
                         </article>
                     </div>
-                </div>
+                </section>
             </div>       
         </main>
 
