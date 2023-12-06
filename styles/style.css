@@ -175,8 +175,6 @@ footer{
     }
     
     body{
-        overflow-x: hidden;
-        overflow-y: hidden;
         padding-top: auto;
         padding-bottom: auto;
     }
@@ -186,7 +184,6 @@ footer{
     .grid1{
         padding-top: 50px;
         padding-bottom: 50px;
-        padding-right: 50px;
     }
 
     .subtitulo{
@@ -236,8 +233,6 @@ footer{
     }
     
     body{
-        overflow-x: hidden;
-        overflow-y: hidden;
         padding-top: auto;
         padding-bottom: auto;
     }
@@ -261,7 +256,6 @@ footer{
     .grid1{
         padding-top: 50px;
         padding-bottom: 50px;
-        padding-right: 50px;
     }
 
     .subtitulo{
